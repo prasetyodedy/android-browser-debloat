@@ -22,7 +22,7 @@ disable Copilot Microsoft Edge version 148 and above which currently cannot be c
 
 <img width="1457" height="1080" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
 
-Copilot AI read any tab what user open, any word what user typing.
+Copilot AI can read any tab what user open, any word what user typing.
 and Microsoft Implemented different DMCA & GDPR to different language/region.
 for different language some settings not available, or hidden intentionally by Microsoft.
 
