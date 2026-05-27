@@ -5,7 +5,7 @@ what tools for setup (managed profile / work profile / profile owner / Device Ow
 - TestDPC (Official by Google) https://github.com/googlesamples/android-testdpc
 - Owndroid (TestDPC fork, but better UI & UX, easy to use) https://github.com/BinTianqi/OwnDroid
 
-#Disable Brave Browser Bloatware
+# Disable Brave Browser Bloatware
 - Brave AI Leo Chat
 - Brave News
 - Brave VPN
@@ -15,6 +15,6 @@ what tools for setup (managed profile / work profile / profile owner / Device Ow
 ![Brave](https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png)
 
 <br/><br/>
-#Disable Copilot Microsoft Edge
+# Disable Copilot Microsoft Edge
 ![Edge](https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png)
 
