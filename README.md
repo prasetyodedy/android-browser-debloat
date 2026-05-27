@@ -5,6 +5,7 @@ what tools for setup (managed profile / work profile / profile owner / Device Ow
 - TestDPC (Official by Google) https://github.com/googlesamples/android-testdpc
 - Owndroid (TestDPC fork, but better UI & UX, easy to use) https://github.com/BinTianqi/OwnDroid
 
+<br/><br/>
 # Disable Brave Browser Bloatware
 - Brave AI Leo Chat
 - Brave News
