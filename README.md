@@ -13,17 +13,17 @@ what tools for setup (managed profile / work profile / profile owner / Device Ow
 - Brave Rewards
 - Brave Wallet
 
-<img width="2439" height="1080" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
+<img width="1084" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
 
 <br/><br/>
 # Disable Copilot Android Microsoft Edge
 disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
 
-<img width="1457" height="1080" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
+<img width="647" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
 
 Copilot AI can read any tab what user open, any word what user typing.
 and Microsoft Implemented different DMCA & GDPR to different language/region.
 for different language some settings not available, or hidden intentionally by Microsoft.
 
-<img width="1943" height="1080" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge_2.png" />
+<img width="863" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge_2.png" />
