@@ -15,6 +15,9 @@ what tools for setup (managed profile / work profile / profile owner / Device Ow
 
 <img width="542" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
+here official source from Brave Group Policy:
+https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
+
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android
