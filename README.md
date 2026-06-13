@@ -1,7 +1,7 @@
 # How remove Android Browser Bloatware?
-now can use tool for disable unwanted program from your Android Browser use managed profile / work profile / profile owner / Device Owner >> Apps Management >> Chromium Based Browser >> Managed Configuration.
+now can use tool for disable unwanted program from your Android Browser use MDM (managed profile / work profile / profile owner / Device Owner) >> Apps Management >> Chromium Based Browser >> Managed Configuration.
 
-what tools for setup (managed profile / work profile / profile owner / Device Owner) in below is tools for setup managed profile:<br/>
+what tools for setup MDM (managed profile / work profile / profile owner / Device Owner) in below is Free tools for setup MDN:<br/>
 - TestDPC (Official by Google) https://github.com/googlesamples/android-testdpc
 - Owndroid (TestDPC fork, but better UI & UX, easy to use) https://github.com/BinTianqi/OwnDroid
 
