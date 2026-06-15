@@ -8,7 +8,7 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 **Note:** first setup MDM need logged out all account from your Android device
 
 <br/><br/>
-# Disable Bloatware / Debloat Brave Android Browser
+# Remove Brave Android Browser Bloatware
 - Brave AI Leo Chat
 - Brave News
 - Brave VPN
