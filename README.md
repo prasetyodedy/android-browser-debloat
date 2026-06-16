@@ -57,8 +57,7 @@ official source from [Brave Group Policy](https://support.brave.app/hc/en-us/art
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
 ~~disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
-Copilot AI can read any tab what user open, any word what user typing.~~
-and Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft.<br/>
+Copilot AI can read any tab what user open, any word what user typing.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft bring back feature for fully disable Copilot directly from Edge Settings
 
 <img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
@@ -67,7 +66,12 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft Edge Android Browser hidden their some settings (for example can't change directly from Edge settings for always HTTPS and setup DNS resolver), with MDM user also can enforce that settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.
+Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver, even basic feature for change language isn't available in Edge settings), with MDM user also can enforce some settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
+for change Edge Language, can enforce with adb shell or [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [shizuku](https://github.com/rikkaapps/shizuku)<br/>
+ADB Shell command for change language:<br/>
+`adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`<br/>
+for example change Microsoft Edge to english - United States<br/>
+`adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
 
 
 **Microsoft Edge Android Browser Specific Policy Settings**<br/>
@@ -75,10 +79,7 @@ key name list and values setup for Managed Configuration for Edge:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
-|Default geolocation setting|DefaultGeolocationSetting|2|
-|Default idle detection setting|DefaultIdleDetectionSetting|2|
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
-|Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
+|Default geolocation setting|DefaultGeolocationSere|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
 |Enable Copilot|EdgeCopilotEnabled|false|
