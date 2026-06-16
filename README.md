@@ -22,7 +22,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 - Brave Wallet
 - and other Policy settings for increase Brave Privacy.
 
-<img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
+<img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
 **Brave Specific Policy Settings**<br/>
 key name list and values setup for Managed Configuration for Brave:
