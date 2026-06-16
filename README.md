@@ -1,9 +1,9 @@
 # How remove Android Browser Bloatware?
 now can use tool for disable unwanted program from your Android Browser use MDM (managed profile / work profile / profile owner / Device Owner) >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
-what tools for setup MDM (managed profile / work profile / profile owner / Device Owner) in below is Free tools for setup MDM:<br/>
-- TestDPC (Official by Google) https://github.com/googlesamples/android-testdpc
-- Owndroid (TestDPC fork, but better UI & UX, easy to use) https://github.com/BinTianqi/OwnDroid
+what tools for setup MDM (managed profile / work profile / profile owner / Device Owner) in below is Free and Open Source tools for setup MDM:<br/>
+- [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
+- [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, but better UI & UX, easy to use)
 
 **Note:** first setup MDM need logged out all account from your Android device
 
@@ -17,9 +17,8 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 
 <img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
 
-here official source from Brave Group Policy:
-https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
-
+**Brave Specific Policy Settings**<br/>
+In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), you can set these values via the Managed Configuration:
 |Name|Key Name|Policy Values|Description|
 |----|--------|-------------|-----------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1||
@@ -44,7 +43,9 @@ https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1||
 |Enable reporting of usage and crash-related data|MetricsReportingEnabled|false||
 |Enable network prediction|NetworkPredictionOptions|0||
-|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1||
+|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1||<br/>
+
+official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android
