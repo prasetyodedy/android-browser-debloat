@@ -49,7 +49,7 @@ In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdp
 official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 
 <br/><br/>
-# Disable Copilot Microsoft Edge Android
+# Disable Copilot Microsoft Edge Android and setup other settings
 disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
 
 <img width="324" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
