@@ -58,10 +58,14 @@ official source from [Brave Group Policy](https://support.brave.app/hc/en-us/art
 # Disable Copilot Microsoft Edge Android and setup other settings
 ~~disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
 Copilot AI can read any tab what user open, any word what user typing.~~
-and Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific or hidden intentionally by Microsoft.<br/>
+and Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft.<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft bring back feature for fully disable Copilot directly from Edge Settings
 
 <img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
+
+but if want disable Copilot entirely, use Policy Group with Managed Configuration.
+
+<img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
 Microsoft Edge Android Browser hidden their some settings (for example can't change directly from Edge settings for always HTTPS and setup DNS resolver), with MDM user also can enforce that settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.
 
