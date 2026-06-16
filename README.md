@@ -5,7 +5,9 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, but better UI & UX, easy to use)
 
-**Note:** first setup MDM need logged out all account from your Android device
+**Note:**
+- first setup MDM need logged out all account from your Android device
+- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented to all applications that support Group Policy, here it only contains specific settings for debloating Brave and Edge.
 
 <br/><br/>
 # Remove Brave Android Browser Bloatware
