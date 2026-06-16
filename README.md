@@ -68,15 +68,6 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver), with MDM user also can enforce settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
 
-**Change Language Edge Browser Android.**<br/>
-basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System.
-for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).<br/>
-ADB Shell command for change language:<br/>
-`adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`<br/>
-for example change Microsoft Edge to english - United States<br/>
-`adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
-
-
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Edge:
 |Name|Key Name|Policy Values|
@@ -98,3 +89,11 @@ key name list and values setup for Managed Configuration for Edge:
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 
 official source from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+
+**Change Language Edge Browser Android.**<br/>
+basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System.
+for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).<br/>
+ADB Shell command for change language:<br/>
+`adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`<br/>
+for example change Microsoft Edge to english - United States<br/>
+`adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
