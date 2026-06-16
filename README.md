@@ -83,3 +83,5 @@ In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdp
 |Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
+
+official source from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
