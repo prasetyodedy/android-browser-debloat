@@ -21,7 +21,7 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 <img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
 
 **Brave Specific Policy Settings**<br/>
-In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), user can set these values via the Managed Configuration:
+key name list and values setup for Managed Configuration for Brave:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
@@ -66,7 +66,7 @@ since Edge Android Browser hidden their some settings (for example can't change 
 
 
 **Microsoft Edge Android Browser Specific Policy Settings**<br/>
-In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), user can set these values via the Managed Configuration;
+key name list and values setup for Managed Configuration for Edge:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
