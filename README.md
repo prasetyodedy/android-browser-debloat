@@ -59,3 +59,27 @@ and Microsoft Implemented different DMCA & GDPR to different language/region.
 for different language some settings not available, or hidden intentionally by Microsoft.
 
 <img width="432" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge_2.png" />
+
+
+**Microsoft Edge Android Browser Specific Policy Settings**<br/>
+In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), you can set these values via the Managed Configuration, since Edge Android Browser hidden their settings for setup always HTTPS and DNS user also can setup that settings via the Managed Configuration for force restrictions and increase privacy Edge Browser in Android.
+|Name|Key Name|Policy Values|
+|----|--------|-------------|
+|Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
+|Default geolocation setting|DefaultGeolocationSetting|2|
+|Default idle detection setting|DefaultIdleDetectionSetting|2|
+|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
+|Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
+|Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query / other dns resolver|
+|Allow download restrictions|DownloadRestrictions|0|
+|Enable Copilot|EdgeCopilotEnabled|false|
+|Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
+|Force minimum YouTube Restricted Mode|ForceYouTubeRestrict|0|
+|Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
+|Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
+|Enable network prediction|NetworkPredictionOptions|0|
+|Prevent bypassing Microsoft Defender SmartScreen prompts for sites|PreventSmartScreenPromptOverride|false|
+|Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads|PreventSmartScreenPromptOverrideForFiles|false|
+|Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
+|Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
+|Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
