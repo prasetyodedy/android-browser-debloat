@@ -14,6 +14,7 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 - Brave VPN
 - Brave Rewards
 - Brave Wallet
+- and other Policy settings for increase Brave Privacy.
 
 <img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
 
