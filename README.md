@@ -9,10 +9,10 @@ in below is Free and Open Source tools for setup MDM:<br/>
 How implement specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
-
 **Note:**
 - first setup MDM need logged out all account from your Android device
 - Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented to all applications that support Group Policy, in here only focused for specific settings about debloating Brave and Edge.
+
 <br/><br/>
 # Remove Brave Android Browser Bloatware
 - Brave AI Leo Chat
@@ -52,7 +52,7 @@ key name list and values setup for Managed Configuration for Brave:
 |Enable network prediction|NetworkPredictionOptions|0|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
-official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
@@ -88,7 +88,7 @@ key name list and values setup for Managed Configuration for Edge:
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 
-official source from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+official source from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/><br/>
 
 **Change Language Edge Browser Android.**<br/>
 basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System.
