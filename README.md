@@ -12,8 +12,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 
 **Note:**
 - first setup MDM need logged out all account from your Android device
-- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented to all applications that support Group Policy, here it only contains specific settings for debloating Brave and Edge.
-
+- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented to all applications that support Group Policy, in here only focused for specific settings about debloating Brave and Edge.
 <br/><br/>
 # Remove Brave Android Browser Bloatware
 - Brave AI Leo Chat
