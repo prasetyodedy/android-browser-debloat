@@ -4,7 +4,7 @@ Now can use tools for disable/remove bloatware (unwanted program) from your Andr
 what MDM / Policy Control Tools apps for setup as `managed profile / work profile / profile owner / Device Owner`?<br/>
 in below is Free and Open Source tools for setup MDM:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
-- [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, but better UI & UX, easy to use)
+- [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
 
 How implement specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
