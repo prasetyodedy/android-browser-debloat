@@ -64,7 +64,7 @@ for different language some settings not available, or hidden intentionally by M
 
 
 **Microsoft Edge Android Browser Specific Policy Settings**<br/>
-In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), user can set these values via the Managed Configuration, since Edge Android Browser hidden their some settings (for example cant change always HTTPS and can't change DNS) from Edge settings, with MDM user also can setup that settings via the Managed Configuration for force setting and increase privacy Edge Browser in Android.
+In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), user can set these values via the Managed Configuration, since Edge Android Browser hidden their some settings (for example can't change always HTTPS and DNS resolver directly from Edge settings), with MDM user also can setup that settings via the Managed Configuration for force setting and increase privacy Edge Browser in Android.
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
