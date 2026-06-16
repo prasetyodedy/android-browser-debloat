@@ -15,7 +15,7 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 - Brave Rewards
 - Brave Wallet
 
-<img width="542" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
+<img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
 
 here official source from Brave Group Policy:
 https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
