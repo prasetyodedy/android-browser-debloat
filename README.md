@@ -67,7 +67,8 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
 Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver, even basic feature for change language isn't available in Edge settings), with MDM user also can enforce some settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
-for change Edge Language, can enforce with adb shell or [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [shizuku](https://github.com/rikkaapps/shizuku)<br/>
+
+for change Edge Language, can enforce with ADB Shell or [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).<br/>
 ADB Shell command for change language:<br/>
 `adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`<br/>
 for example change Microsoft Edge to english - United States<br/>
