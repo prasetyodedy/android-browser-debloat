@@ -19,7 +19,7 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 <img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave2.png" />
 
 **Brave Specific Policy Settings**<br/>
-In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), you can set these values via the Managed Configuration:
+In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), user can set these values via the Managed Configuration:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
