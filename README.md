@@ -19,31 +19,31 @@ what tools for setup MDM (managed profile / work profile / profile owner / Devic
 
 **Brave Specific Policy Settings**<br/>
 In addition to the MDM [TestDPC](https://github.com/googlesamples/android-testdpc) / [Owndroid](https://github.com/BinTianqi/OwnDroid), you can set these values via the Managed Configuration:
-|Name|Key Name|Policy Values|Description|
-|----|--------|-------------|-----------|
-|Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1||
-|Enable AI Chat|BraveAIChatEnabled|false||
-|Disable Brave News|BraveNewsDisabled|true||
-|Enable Privacy Preserving Product Analytics (P3A)|BraveP3AEnabled|false||
-|Enable Brave Playlist|BravePlaylistEnabled|false||
-|Disable Brave Rewards|BraveRewardsDisabled|true||
-|Enable Stats Usage Ping|BraveStatsPingEnabled|false||
-|Disable Brave Talk|BraveTalkDisabled|true||
-|Disable Brave VPN|BraveVPNDisabled|true||
-|Disable Brave Wallet|BraveWalletDisabled|true||
-|Enable Web Discovery|BraveWebDiscoveryEnabled|false||
-|Brave cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false||
-|Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3||
-|Default idle detection setting|DefaultIdleDetectionSetting|2||
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2||
-|Allow reporting of domain reliability related data|DomainReliabilityAllowed|false||
-|Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false||
-|Settings for Chrome Finds|FindsSettings|2||
-|Settings for Gemini integration|GeminiSettings|1||
-|Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1||
-|Enable reporting of usage and crash-related data|MetricsReportingEnabled|false||
-|Enable network prediction|NetworkPredictionOptions|0||
-|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1||<br/>
+|Name|Key Name|Policy Values|
+|----|--------|-------------|
+|Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
+|Enable AI Chat|BraveAIChatEnabled|false|
+|Disable Brave News|BraveNewsDisabled|true|
+|Enable Privacy Preserving Product Analytics (P3A)|BraveP3AEnabled|false|
+|Enable Brave Playlist|BravePlaylistEnabled|false|
+|Disable Brave Rewards|BraveRewardsDisabled|true|
+|Enable Stats Usage Ping|BraveStatsPingEnabled|false|
+|Disable Brave Talk|BraveTalkDisabled|true|
+|Disable Brave VPN|BraveVPNDisabled|true|
+|Disable Brave Wallet|BraveWalletDisabled|true|
+|Enable Web Discovery|BraveWebDiscoveryEnabled|false|
+|Brave cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
+|Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
+|Default idle detection setting|DefaultIdleDetectionSetting|2|
+|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
+|Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
+|Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
+|Settings for Chrome Finds|FindsSettings|2|
+|Settings for Gemini integration|GeminiSettings|1|
+|Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
+|Enable reporting of usage and crash-related data|MetricsReportingEnabled|false|
+|Enable network prediction|NetworkPredictionOptions|0|
+|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
 official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 
