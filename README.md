@@ -62,7 +62,7 @@ for different language some settings not available, or hidden intentionally by M
 
 <img width="432" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge_2.png" />
 
-since Edge Android Browser hidden their some settings (for example can't change directly from Edge settings for always HTTPS and setup DNS resolver), with MDM user also can setup that settings via the Managed Configuration for force setting and increase privacy Edge Browser in Android.
+since Edge Android Browser hidden their some settings (for example can't change directly from Edge settings for always HTTPS and setup DNS resolver), with MDM user also can setup that settings via the Managed Configuration to enforce specific settings and increase privacy Edge Browser in Android.
 
 
 **Microsoft Edge Android Browser Specific Policy Settings**<br/>
