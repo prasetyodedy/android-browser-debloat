@@ -73,7 +73,7 @@ key name list and values setup for Managed Configuration for Edge:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
-|Default geolocation setting|DefaultGeolocationSere|
+|Default geolocation setting|DefaultGeolocationSetting|2|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
 |Enable Copilot|EdgeCopilotEnabled|false|
