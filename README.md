@@ -68,7 +68,7 @@ Also recommended for Brave user setup this flags:
 |chrome://flags/#search-in-settings|Adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable the Brave Origin menu in settings|
 
-In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as disabling third-party cookies and having good ad-blocking and region-specific filter rules. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
+In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies by default and having built-in ad-blocking enabled by default include region-specific filter rules. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
