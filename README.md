@@ -124,8 +124,7 @@ Home Page settings, tap hamburger menu on top right
 - Show feed (optional. if like read news, keep it enable)
 <img width="456" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
 
-In addition to the settings I mentioned above, Edge Browser is ready for use, no need more change setup, for other settings user can customize by yourself.
-
+In addition to the settings I mentioned above, Edge Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Change Language Edge Browser Android.**<br/>
 basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System. for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
