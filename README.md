@@ -54,7 +54,21 @@ key name list and values setup for Managed Configuration for Brave:
 |Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
-official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).
+official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+**Note:** if missing some Policy Key Name in above or not found, that Key Name maybe already deprecated, or Brave change their Policy Key Name.
+
+In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave user setup a configuration in below directly from Brave settings:
+- Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
+- Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
+- Settings >> Site settings >> Autoplay (ser to 'Not allowed')
+
+Also recommended for Brave user enable this flags:
+|flags|description|
+|-----|-----------|
+|chrome://flags/#search-in-settings|for easy find exact settings|
+|chrome://flags/#brave-origin|disable brave origin menu from settings|
+
+In addition to the settings I mentioned above, Brave Browser already has default well-managed settings (such as disabling third-party cookies, good default ad-blocking filter rules + region-specific filter rules, and so on). now Brave ready for use, no need more change setup, for other settings user can customize by yourself.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
