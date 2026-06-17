@@ -24,7 +24,7 @@ How to remove:
   
 And add other policy configurations to increase Brave Browser privacy.<br/>
 
-<img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
+<img width="1362" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
 **Brave Specific Policy Settings**<br/>
 Key name list and values for Managed Configuration in Brave Browser:
@@ -80,11 +80,11 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 ~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI can read any tab that a user opens and any word that a user types.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
-<img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
+<img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
 
 but if want disable Copilot entirely, use Policy Group with Managed Configuration.
 
-<img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
+<img width="480" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
 Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
 
@@ -128,7 +128,7 @@ Home Page settings, tap hamburger menu on top right
 - Show sponsored shortcuts (set to 'disable')
 - Cards >> Edge tips (set to 'disable')
 - Show feed (optional. if like read news, keep it enable)
-<img width="456" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
+<img width="912" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
 
 In addition to the settings I mentioned above, Edge Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
