@@ -86,7 +86,7 @@ However, to disable Copilot entirely, utilize Group Policies via Managed Configu
 
 <img width="480" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, users can't change settings directly from Edge to enable HTTPS-only and set up a secure DNS resolver), by utilizing an MDM users can apply these and other settings through Managed Configurations to enhance Edge Browser privacy on Android devices.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, users can't change settings directly from Edge Browser to enable HTTPS-only and set up a secure DNS resolver), by utilizing an MDM users can apply these and other settings through Managed Configurations to enhance Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
@@ -133,7 +133,7 @@ Home Page settings, tap hamburger menu on top right
 In addition to the settings I mentioned above, Edge Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Change Language Edge Browser Android.**<br/>
-The basic feature for changing language isn't available in Edge settings. Edge Browser uses the language autodetection applied to the Android System. To change Edge browser language, it can be enforced with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
+The basic feature for changing language isn't available in Edge Browser settings. Edge Browser uses the language autodetection applied to the Android System. To change Edge Browser language, it can be enforced with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
 
 ADB Shell Command for changing application language<br/>
 `adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`
