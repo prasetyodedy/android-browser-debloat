@@ -127,7 +127,7 @@ Home Page settings, tap hamburger menu on top right
 In addition to the settings I mentioned above, Edge Browser ready for use, no need more change setup, for other settings user can customize by yourself.
 
 <br/>
-**Change Language Edge Browser Android.**<br/>
+**Change Language Edge Browser Android.** <br/>
 basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System.
 for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).<br/>
 ADB Shell command for change language:<br/>
