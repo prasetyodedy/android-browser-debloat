@@ -72,8 +72,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
-~~disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
-Copilot AI can read any tab what user open, any word what user typing.~~<br/>
+~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI can read any tab what user opens, any word what user types.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
