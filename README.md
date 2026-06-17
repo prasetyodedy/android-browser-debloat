@@ -1,7 +1,7 @@
 # How to remove Android Browser Bloatware?
-Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers by provisioning the device with a `managed profile, work profile, profile owner, or device owner.`<br/> 
+Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers by provisioning the device with a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
-What are MDM / Policy Control Tools apps to set up a `managed profile, work profile, profile owner, or device owner.`?<br/>
+What are MDM / Policy Control Tools apps to set up a `managed profile, work profile, profile owner, or device owner`.?<br/>
 Below are free and open-source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
@@ -82,11 +82,11 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
 
-but to disable Copilot entirely, use Policy Group with Managed Configuration.
+However, to disable Copilot entirely, utilize Group Policies via Managed Configuration.
 
 <img width="480" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, users can't change settings directly from Edge to enable HTTPS-only and set up a secure DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
@@ -118,8 +118,8 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
-- Settings >> Appearance and layout >> Theme and Wallpaper (optional. if like, keep it enable and customize)
-- Settings >> New tab page >> Weather (optional. if like, keep it enable)
+- Settings >> Appearance and layout >> Theme and Wallpaper (optional. if liked, keep it enabled and customize)
+- Settings >> New tab page >> Weather (optional. if liked, keep it enabled)
 - Settings >> New tab page >> Continue browsing where I left off (enable)
 - Settings >> Site settings >> Site permissions >> Third-party cookies (set to 'disable')
 - Settings >> Site settings >> Block ads (optional. if like, enable in-built Block ads and disable 'Acceptable Ads') but recommended use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
@@ -127,7 +127,7 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 Home Page settings, tap hamburger menu on top right
 - Show sponsored shortcuts (set to 'disable')
 - Cards >> Edge tips (set to 'disable')
-- Show feed (optional. if like read news, keep it enable)
+- Show feed (optional. if liked read news, keep it enabled)
 <img width="912" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
 
 In addition to the settings I mentioned above, Edge Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
