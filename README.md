@@ -1,7 +1,7 @@
 # How to remove Android Browser Bloatware?
-Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers by provisioning the device with a `managed profile, work profile, profile owner, or device owner`.<br/> 
+Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unwanted features and programs) from Android browsers by provisioning the device with a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
-What are MDM / Policy Control Tools apps to set up a `managed profile, work profile, profile owner, or device owner`.?<br/>
+What MDM / Policy Control Tools can be used to set up these profiles?<br/>
 Below are free and open-source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
@@ -77,7 +77,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
-~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI can read any tab that a user opens and any word that a user types.~~<br/>
+~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI could read active tabs and text typed by the user.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
@@ -86,7 +86,7 @@ However, to disable Copilot entirely, utilize Group Policies via Managed Configu
 
 <img width="480" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, users can't change settings directly from Edge to enable HTTPS-only and set up a secure DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, users can't change settings directly from Edge to enable HTTPS-only and set up a secure DNS resolver), by utilizing an MDM users can apply these and other settings through Managed Configurations to enhance Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
@@ -122,7 +122,7 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 - Settings >> New tab page >> Weather (optional. if liked, keep it enabled)
 - Settings >> New tab page >> Continue browsing where I left off (enable)
 - Settings >> Site settings >> Site permissions >> Third-party cookies (set to 'disable')
-- Settings >> Site settings >> Block ads (optional. if like, enable in-built Block ads and disable 'Acceptable Ads') but recommended use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
+- Settings >> Site settings >> Block ads (optional. if liked, enabled built-in Block ads and disable 'Acceptable Ads') but recommended use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
 
 Home Page settings, tap hamburger menu on top right
 - Show sponsored shortcuts (set to 'disable')
@@ -135,8 +135,8 @@ In addition to the settings I mentioned above, Edge Browser is ready to use. No 
 **Change Language Edge Browser Android.**<br/>
 The basic feature for changing language isn't available in Edge settings. Edge Browser uses the language autodetection applied to the Android System. To change Edge browser language, it can be enforced with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
 
-ADB Shell command for change language:<br/>
+ADB Shell Command for changing application language<br/>
 `adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`
 
-for example change Microsoft Edge to english - United States<br/>
+for example changing Microsoft Edge languages to english - United States<br/>
 `adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
