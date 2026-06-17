@@ -41,10 +41,11 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Disable Brave Wallet|BraveWalletDisabled|true|
 |Enable Web Discovery|BraveWebDiscoveryEnabled|false|
 |Brave cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
+|Default Brave fingerprinting protection setting|DefaultBraveFingerprintingV2Setting|3|
 |Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
 |Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
+|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2||
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
