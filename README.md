@@ -68,10 +68,10 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
 Also recommended for Brave users to set up these flags:
-|flags|description|
-|-----|-----------|
-|chrome://flags/#search-in-settings|adds a search bar for easily finding specific internal settings|
-|chrome://flags/#brave-origin|disable the Brave Origin menu in settings|
+|flags|Value|description|
+|-----|-----|-----------|
+|chrome://flags/#search-in-settings|enable|adds a search bar for easily finding specific internal settings|
+|chrome://flags/#brave-origin|disable|disable the Brave Origin menu in settings|
 
 In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
