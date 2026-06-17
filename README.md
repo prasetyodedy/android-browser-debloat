@@ -70,7 +70,7 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 Also recommended for Brave users to set up these flags:
 |flags|description|
 |-----|-----------|
-|chrome://flags/#search-in-settings|Adds a search bar for easily finding specific internal settings|
+|chrome://flags/#search-in-settings|adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable the Brave Origin menu in settings|
 
 In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
@@ -120,9 +120,9 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
 - Settings >> Appearance and layout >> Theme and Wallpaper (optional. if liked, keep it enabled and customize)
 - Settings >> New tab page >> Weather (optional. if liked, keep it enabled)
-- Settings >> New tab page >> Continue browsing where I left off (enable)
+- Settings >> New tab page >> Continue browsing where I left off (select and activate this)
 - Settings >> Site settings >> Site permissions >> Third-party cookies (set to 'disable')
-- Settings >> Site settings >> Block ads (optional. if liked, enabled built-in Block ads and disable 'Acceptable Ads') but recommended use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
+- Settings >> Site settings >> Block ads (optional. if liked, enabled built-in Block ads and disable 'Acceptable Ads') but recommended to use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
 
 Home Page settings, tap hamburger menu on top right
 - Show sponsored shortcuts (set to 'disable')
