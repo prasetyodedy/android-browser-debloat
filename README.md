@@ -62,7 +62,7 @@ In addition to the Managed Configuration with Group Policy, which not invicible 
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
-Also recommended for Brave user enable this flags:
+Also recommended for Brave user setup this flags:
 |flags|description|
 |-----|-----------|
 |chrome://flags/#search-in-settings|for easy find exact settings|
