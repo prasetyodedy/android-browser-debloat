@@ -84,7 +84,7 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Some settings are not available for different regions or languages specific and hidden intentionally by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
-key name list and values setup for Managed Configuration for Edge:
+key name list and values setup for Managed Configuration for Microsoft Edge Browser:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
