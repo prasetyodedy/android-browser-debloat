@@ -11,6 +11,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
+- in here not explain how to provisioning the device as a `managed profile, work profile, profile owner, or device owner`. all documentation already on TestDPC and OwnDroid repo, If you encounter difficulties and obstacles, you can ask at https://deepwiki.com/BinTianqi/OwnDroid
 - Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
