@@ -1,7 +1,7 @@
 # How to remove Android Browser Bloatware?
-Now can use tools for disable/remove bloatware (unwanted programs) from your Android Browser use MDM (Mobile Device Management) / Policy Control Tools apps and set as `managed profile / work profile / profile owner / Device Owner`<br/> 
+Now can use tools for disable/remove bloatware (unwanted programs) from your Android Browser use MDM (Mobile Device Management) / Policy Control Tools apps, and set as `managed profile/work profile/profile owner/device owner`<br/> 
 
-What are MDM / Policy Control Tools apps for set as `managed profile / work profile / profile owner / Device Owner`?<br/>
+What are MDM / Policy Control Tools apps for set as `managed profile/work profile/profile owner/device owner`?<br/>
 in below is Free and Open Source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
@@ -10,8 +10,8 @@ How to implement specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
 **Note:**
-- Before setting up MDM, need log out all accounts from your Android device
-- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented to all applications that support Group Policy, in here only focused on specific settings about Brave Browser and Edge Browser for Android.
+- Before setting up MDM, need to log out of all accounts from your Android device
+- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented for all applications that support Group Policy, in here only focus on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
 # Remove Brave Android Browser Bloatware
@@ -25,7 +25,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 <img width="676" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
 **Brave Specific Policy Settings**<br/>
-Key name list and values for Managed Configuration in Brave:
+Key name list and values for Managed Configuration in Brave Browser:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
@@ -54,10 +54,10 @@ Key name list and values for Managed Configuration in Brave:
 |Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
-official source and credit from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
-**Note:** If some Policy Key Names on above are missing or cannot be found, that Key Name maybe already deprecated, or Brave change their Policy Key Name.
+official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+**Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave Browser user setup a configuration in below directly in Brave Browser settings:
+Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. also recommended for Brave Browser users setup a configuration below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
@@ -82,7 +82,7 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. some settings not available for different region or languages specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings to enable HTTPS-only and setup DNS resolver), with MDM users can enforce these settings and other config via the Managed Configuration for increase Edge Browser privacy on Android devices.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Some settings are not available for different regions or languages specific and hidden intentionally by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Edge:
@@ -105,10 +105,10 @@ key name list and values setup for Managed Configuration for Edge:
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 
-official source and credit from [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
-**Note:** If some Policy Key Names on above are missing or cannot be found, that Key Name maybe already deprecated, or Microsoft change their Policy Key Name.
+official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
+**Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
-In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Microsoft Edge user setup a configuration in below directly from Edge Browser settings:
+Besides setting Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Microsoft Edge users setup a configuration in below directly from Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
