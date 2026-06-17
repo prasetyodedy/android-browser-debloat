@@ -1,8 +1,8 @@
 # How to remove Android Browser Bloatware?
-Users can now utilize MDM tools to disable and remove bloatware (unwanted programs) from your Android Browser use MDM (Mobile Device Management) / Policy Control Tools apps, and set as a `managed profile/work profile/profile owner/device owner`<br/> 
+Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers, and set as a `managed profile/work profile/profile owner/device owner`<br/> 
 
 What are MDM / Policy Control Tools apps to set up a `managed profile/work profile/profile owner/device owner`?<br/>
-in below is Free and Open Source tools for MDM setup:<br/>
+Below are free and open-source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
 
@@ -10,7 +10,7 @@ How to implement a specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
 **Note:**
-- Before setting up an MDM, users must log out of all active accounts from your Android device
+- Before setting up an MDM profile, users must log out of all active accounts from the Android device.
 - Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented for all applications that support Group Policy, in here only focus on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
@@ -57,7 +57,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. Also recommended for Brave Browser users setup a configuration below directly in the Brave Browser settings:
+Besides setting up Managed Configurations via Group Policy, which remains invisible in normal settings. it is also recommended that Brave Browser users configure the following options directly in the application settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
