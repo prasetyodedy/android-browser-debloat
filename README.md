@@ -96,6 +96,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Force minimum YouTube Restricted Mode|ForceYouTubeRestrict|0|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
 |Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
+|Enable automatic HTTPS upgrades|HttpsUpgradesEnabled|true|
 |Enable network prediction|NetworkPredictionOptions|0|
 |Prevent bypassing Microsoft Defender SmartScreen prompts for sites|PreventSmartScreenPromptOverride|false|
 |Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads|PreventSmartScreenPromptOverrideForFiles|false|
@@ -103,6 +104,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
+|EdgeDefaultHTTPS|EdgeDefaultHTTPS|true|
 
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
