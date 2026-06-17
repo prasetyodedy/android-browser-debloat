@@ -54,13 +54,13 @@ key name list and values setup for Managed Configuration for Brave:
 |Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
-official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+official source and credit from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** if missing some Policy Key Name in above or not found, that Key Name maybe already deprecated, or Brave change their Policy Key Name.
 
-In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave user setup a configuration in below directly from Brave settings:
+In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave Briwser user setup a configuration in below directly from Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
-- Settings >> Site settings >> Autoplay (ser to 'Not allowed')
+- Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
 Also recommended for Brave user enable this flags:
 |flags|description|
@@ -105,8 +105,28 @@ key name list and values setup for Managed Configuration for Edge:
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 
-official source from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/><br/>
+official source and credit from [Microsoft Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
+**Note:** if missing some Policy Key Name in above or not found, that Key Name maybe already deprecated, or Microsoft change their Policy Key Name.
 
+In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Microsoft Edge user setup a configuration in below directly from Edge Browser settings:
+- Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
+- Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
+- Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
+- Settings >> Appearance and layout >> Theme and Wallpaper (optional. if like, keep it enable and customize)
+- Settings >> New tab page >> Weather (optional. if like, keep it enable)
+- Settings >> New tab page >> Continue browsing where I left off (enable)
+- Settings >> Site settings >> Site permissions >> Third-party cookies (set to 'disable')
+- Settings >> Site settings >> Block ads (optional. if like, enable in-built Block ads and disable 'Acceptable Ads') but recommended use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
+
+Home Page settings, tap hamburger menu on top right
+- Show sponsored shortcuts (set to 'disable')
+- Cards >> Edge tips (set to 'disable')
+- Show feed (optional. if like read news, keep it enable)
+<img width="456" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Edge.png" />
+
+In addition to the settings I mentioned above, Edge Browser ready for use, no need more change setup, for other settings user can customize by yourself.
+
+<br/><br/>
 **Change Language Edge Browser Android.**<br/>
 basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System.
 for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).<br/>
