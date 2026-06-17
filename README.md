@@ -1,7 +1,7 @@
 # How to remove Android Browser Bloatware?
-Now can use tools for disabling/removing bloatware (unwanted programs) from your Android Browser use MDM (Mobile Device Management) / Policy Control Tools apps, and set as a `managed profile/work profile/profile owner/device owner`<br/> 
+Users can now utilize MDM tools to disable and remove bloatware (unwanted programs) from your Android Browser use MDM (Mobile Device Management) / Policy Control Tools apps, and set as a `managed profile/work profile/profile owner/device owner`<br/> 
 
-What are MDM / Policy Control Tools apps for set as `managed profile/work profile/profile owner/device owner`?<br/>
+What are MDM / Policy Control Tools apps to set up a `managed profile/work profile/profile owner/device owner`?<br/>
 in below is Free and Open Source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
@@ -10,7 +10,7 @@ How to implement a specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
 **Note:**
-- Before setting up MDM, need to log out of all accounts from your Android device
+- Before setting up an MDM, users must log out of all active accounts from your Android device
 - Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented for all applications that support Group Policy, in here only focus on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
@@ -72,7 +72,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
-~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI can read any tab what user opens, any word what user types.~~<br/>
+~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI can read any tab that a user opens and any word that a user types.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
@@ -81,7 +81,7 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Some settings are not available for different regions or languages specific and hidden intentionally by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. Certain options are not available across different regional or language-specific locales, and are intentionally hidden by Microsoft (for example, can't change directly from Edge settings to enable HTTPS-only and set up DNS resolver), with MDM users can enforce these settings and other configurations via the Managed Configuration to increase Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
