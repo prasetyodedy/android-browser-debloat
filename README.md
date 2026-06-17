@@ -1,7 +1,7 @@
 # How to remove Android Browser Bloatware?
-Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers, and set MDM/Policy Control tools as a `managed profile/work profile/profile owner/device owner`<br/> 
+Users can now utilize Mobile Device Management (MDM) or Policy Control tools to disable and remove bloatware (unwanted programs) from Android browsers by provisioning the device with a `managed profile, work profile, profile owner, or device owner.`<br/> 
 
-What are MDM / Policy Control Tools apps to set up a `managed profile/work profile/profile owner/device owner`?<br/>
+What are MDM / Policy Control Tools apps to set up a `managed profile, work profile, profile owner, or device owner.`?<br/>
 Below are free and open-source tools for MDM setup:<br/>
 - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
 - [Owndroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
@@ -11,7 +11,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
-- Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but here we will only focus on specific settings about Brave Browser and Edge Browser for Android.
+- Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
 # Remove Brave Android Browser Bloatware
@@ -47,7 +47,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
 |Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2||
+|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
@@ -62,7 +62,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings. It is also recommended for users to configure the options below directly in the Brave Browser settings:
+Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
@@ -73,7 +73,7 @@ Also recommended for Brave users to set up these flags:
 |chrome://flags/#search-in-settings|Adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable the Brave Origin menu in settings|
 
-In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking, including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
+In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
@@ -82,7 +82,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
 
-but if want disable Copilot entirely, use Policy Group with Managed Configuration.
+but to disable Copilot entirely, use Policy Group with Managed Configuration.
 
 <img width="480" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
@@ -114,7 +114,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
-Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings. It is also recommended for users to configure the options below directly in the Edge Browser settings:
+Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
