@@ -82,7 +82,7 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft Implemented different Policy (DMCA - GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver), with MDM user also can enforce settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
+Microsoft Implemented different Policy (Data Protection and Privacy Rights / GDPR) to different region - language specific. some settings not available for different region or language specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver), with MDM user also can enforce settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Edge:
