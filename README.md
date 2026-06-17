@@ -17,7 +17,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 # Remove Brave Android Browser Bloatware
 - Brave AI Leo Chat
 - Brave News
-- Brave VPN
+- Brave Firewall + VPN
 - Brave Rewards
 - Brave Wallet
 - and other policy settings to increase Brave Browser privacy.
