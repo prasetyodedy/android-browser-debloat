@@ -100,6 +100,7 @@ key name list and values setup for Managed Configuration for Edge:
 |Enable network prediction|NetworkPredictionOptions|0|
 |Prevent bypassing Microsoft Defender SmartScreen prompts for sites|PreventSmartScreenPromptOverride|false|
 |Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads|PreventSmartScreenPromptOverrideForFiles|false|
+|Prevent bypassing Edge Website Typo Protection prompts for sites|PreventTyposquattingPromptOverride|false|
 |Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
