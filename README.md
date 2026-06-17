@@ -60,7 +60,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
-**Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
+**Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
 Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
@@ -112,7 +112,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |EdgeDefaultHTTPS|EdgeDefaultHTTPS|true|
 
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
-**Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
+**Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
 Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
