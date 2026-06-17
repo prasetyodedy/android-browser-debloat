@@ -11,7 +11,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
-- Managed Configuration is not limited to browser applications such as Brave and Edge only, it can be implemented for all applications that support Group Policy, in here only focus on specific settings about Brave Browser and Edge Browser for Android.
+- Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but here we will only focus on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
 # Remove Brave Android Browser Bloatware
