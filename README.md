@@ -82,7 +82,7 @@ but if want disable Copilot entirely, use Policy Group with Managed Configuratio
 
 <img width="240" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot2.png" />
 
-Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. some settings not available for different region or languages specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings for always use HTTPS and setup DNS resolver), with MDM user also can enforce settings and other setup via the Managed Configuration for increase privacy Edge Browser in Android.<br/>
+Microsoft implements different policies (Data Protection and Privacy Rights / GDPR) for different regions and languages. some settings not available for different region or languages specific and hidden intentionally by Microsoft (for example can't change directly from Edge settings to enable HTTPS-only and setup DNS resolver), with MDM users can enforce these settings and other config via the Managed Configuration for increase Edge Browser privacy on Android devices.<br/>
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Edge:
@@ -106,7 +106,7 @@ key name list and values setup for Managed Configuration for Edge:
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 
 official source and credit from [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
-**Note:** If some Policy Key Names on above are missing or cannot be found, that Key Name mayready deprecated, or Microsoft change their Policy Key Name.
+**Note:** If some Policy Key Names on above are missing or cannot be found, that Key Name maybe already deprecated, or Microsoft change their Policy Key Name.
 
 In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Microsoft Edge user setup a configuration in below directly from Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
