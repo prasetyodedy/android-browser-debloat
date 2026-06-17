@@ -57,18 +57,18 @@ Key name list and values for Managed Configuration in Brave Browser:
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-Besides setting up Managed Configurations via Group Policy, which remains invisible in normal settings. it is also recommended that Brave Browser users configure the following options directly in the application settings:
+Besides setting up Managed Configurations via Group Policy, which remains invisible in normal settings. It is also recommended that Brave Browser users configure the following options directly in the application settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
-Also recommended for Brave user setup this flags:
+Also recommended for Brave users to set up these flags:
 |flags|description|
 |-----|-----------|
 |chrome://flags/#search-in-settings|Adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable the Brave Origin menu in settings|
 
-In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies by default and having built-in ad-blocking enabled by default include region-specific filter rules. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
+In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies by default and having built-in ad-blocking enabled by default, including region-specific filter rules. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
@@ -107,7 +107,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
-Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. Also recommended for Microsoft Edge users setup a configuration below directly from the Edge Browser settings:
+Besides setting up Managed Configurations via Group Policy, which remains invisible in normal settings. It is also recommended that Mincosoft Edge users configure the following options directly in the application settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
