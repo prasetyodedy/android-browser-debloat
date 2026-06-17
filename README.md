@@ -48,8 +48,10 @@ key name list and values setup for Managed Configuration for Brave:
 |Settings for Chrome Finds|FindsSettings|2|
 |Settings for Gemini integration|GeminiSettings|1|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
+|Enable automatic HTTPS upgrades|HttpsUpgradesEnabled|true|
 |Enable reporting of usage and crash-related data|MetricsReportingEnabled|false|
 |Enable network prediction|NetworkPredictionOptions|0|
+|Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
 
 official source from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).
