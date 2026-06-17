@@ -70,7 +70,7 @@ Besides setting up Managed Configurations via Group Policy, which is not visible
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
 Also recommended for Brave users to set up these flags:
-|flags|Value|description|
+|Flags|Value|Description|
 |-----|-----|-----------|
 |chrome://flags/#search-in-settings|enable|adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable|disable the Brave Origin menu in settings|
