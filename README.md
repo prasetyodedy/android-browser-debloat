@@ -57,7 +57,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. also recommended for Brave Browser users setup a configuration below directly in the Brave Browser settings:
+Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. Also recommended for Brave Browser users setup a configuration below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
@@ -108,7 +108,7 @@ key name list and values setup for Managed Configuration for Edge:
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or cannot be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
-Besides setting Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Microsoft Edge users setup a configuration in below directly from Edge Browser settings:
+Besides setting Managed Configuration with Group Policy, which is not visible in normal settings. Also recommended for Microsoft Edge users setup a configuration below directly from the Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
