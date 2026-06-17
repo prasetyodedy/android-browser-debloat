@@ -30,6 +30,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 |----|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Enable AI Chat|BraveAIChatEnabled|false|
+|Configure Global Privacy Control|BraveGlobalPrivacyControlEnabled|true|
 |Disable Brave News|BraveNewsDisabled|true|
 |Enable Privacy Preserving Product Analytics (P3A)|BraveP3AEnabled|false|
 |Enable Brave Playlist|BravePlaylistEnabled|false|
