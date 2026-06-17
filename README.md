@@ -57,7 +57,7 @@ key name list and values setup for Managed Configuration for Brave:
 official source and credit from [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** if missing some Policy Key Name in above or not found, that Key Name maybe already deprecated, or Brave change their Policy Key Name.
 
-In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave Briwser user setup a configuration in below directly from Brave Browser settings:
+In addition to the Managed Configuration with Group Policy, which not invicible in normal settings. also recommended for Brave Browser user setup a configuration in below directly from Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
