@@ -74,7 +74,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 # Disable Copilot Microsoft Edge Android and setup other settings
 ~~disable Copilot Microsoft Edge version 148 and above which currently cannot be completely turned off from settings.
 Copilot AI can read any tab what user open, any word what user typing.~~<br/>
-**Update:** now in Edge Browser v149.0.4022.67 Microsoft bring back feature for disable Copilot directly from Edge Settings
+**Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="341" height="240" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
 
@@ -127,7 +127,7 @@ Home Page settings, tap hamburger menu on top right
 In addition to the settings I mentioned above, Edge Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Change Language Edge Browser Android.**<br/>
-basic feature for change language isn't available in Edge settings, Edge browser uses the language autodetection applied to the Android System. for change Edge browser language, can enforce with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
+The basic feature for changing language isn't available in Edge settings. Edge Browser uses the language autodetection applied to the Android System. To change Edge browser language, it can be enforced with ADB Shell or with apps [Language Selector](https://github.com/VegaBobo/Language-Selector) (vegabobo.languageselector) + [Shizuku](https://github.com/rikkaapps/shizuku).
 
 ADB Shell command for change language:<br/>
 `adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`
