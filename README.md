@@ -111,6 +111,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
 |Enable Copilot|EdgeCopilotEnabled|false|
+|EdgeDefaultHTTPS|EdgeDefaultHTTPS|true|
 |Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
 |Force minimum YouTube Restricted Mode|ForceYouTubeRestrict|0|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
@@ -123,7 +124,6 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
-|EdgeDefaultHTTPS|EdgeDefaultHTTPS|true|
 
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
