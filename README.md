@@ -1,19 +1,22 @@
 # How to remove Android Browser Bloatware?
 Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unwanted features and programs) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
-What MDM / Policy Control Tools can be used to set up these profiles?<br/>
+1. What MDM / Policy Control Tools can be used to set up these profiles?<br/>
 Below are free and open-source tools for MDM setup:<br/>
-- [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
-- [OwnDroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
+   - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
+   - [OwnDroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
 
-How to implement a specific policy?<br/>
+2. How to implement a specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
+3. Why use Managed Configuration with Group Policy?<br/>
+Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
+That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.<br/><br/>
 **Note:**
-- Before setting up an MDM profile, users must log out of all active accounts from the Android device.
-- And before starting MDM setup, the device does not have a second user (guest), not set up as a managed profile, and has not set up a private space.
-- In here not explain how to provision the device as a `managed profile, work profile, profile owner, or device owner`. All documentation about setting up is already on the [TestDPC](https://github.com/googlesamples/android-testdpc) and [OwnDroid](https://github.com/BinTianqi/OwnDroid) repo, when setting up MDM encounter a difficulties and obstacles can be asked at https://deepwiki.com/BinTianqi/OwnDroid
-- Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
+   - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
+   - And before starting MDM setup, the device does not have a second user (guest), not set up as a managed profile, and has not set up a private space.
+   - In here not explain how to provision the device as a `managed profile, work profile, profile owner, or device owner`. All documentation about setting up is already on the [TestDPC](https://github.com/googlesamples/android-testdpc) and [OwnDroid](https://github.com/BinTianqi/OwnDroid) repo, when setting up MDM encounter a difficulties and obstacles can be asked at https://deepwiki.com/BinTianqi/OwnDroid
+   - Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
 
 <br/><br/>
 # Remove Brave Android Browser Bloatware
@@ -23,7 +26,7 @@ How to remove:
 - Brave Firewall + VPN
 - Brave Rewards
 - Brave Wallet
-  
+
 And add other policy configurations to increase Brave Browser privacy.<br/>
 
 <img width="1362" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
@@ -64,7 +67,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
 
-Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Brave Browser settings:
+Besides setting up Managed Configurations via Group Policy, it is also recommended for users to configure the options below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
 - Settings >> Privacy Report >> Privacy Report Notification "Sends a weekly privacy report" (set to 'disable')
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
@@ -79,7 +82,7 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
-~~Disable Copilot in Microsoft Edge version 148 and above, which currently cannot be completely turned off from settings. Copilot AI could read active tabs and text typed by the user.~~<br/>
+~~Copilot AI in Microsoft Edge version 148 and above, currently cannot be completely disabling/turned off from settings, which Copilot AI always could read active tabs and text typed by the user in Edge Browser.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
@@ -116,7 +119,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
-Besides setting up Managed Configurations via Group Policy, which is not visible in normal settings, it is also recommended for users to configure the options below directly in the Edge Browser settings:
+Besides setting up Managed Configurations via Group Policy, it is also recommended for users to configure the options below directly in the Edge Browser settings:
 - Settings >> Privacy and security >> Diagnostic data >> Optional diagnostic data (set to 'disable')
 - Settings >> Microsoft services >> Improve quality of shortcuts on homepage (set to 'disable')
 - Settings >> Search >> Show me search and site suggestions using my typed characters (set to 'disable')
