@@ -15,7 +15,7 @@ That's why as users, we can take advantage of the highest privileges of group po
 
 4. **Where to check known all available group policy key names for managed configuration?**<br/>
    - `chrome://policy`
-   - inside Application Managed Configuration from MDM Tools
+   - in the Applications menu section within Managed Configuration of MDM Tools.
    - official documentation from developer/publisher, for example:
         - Brave Group Policy https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
         - Microsoft Group Policy https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
