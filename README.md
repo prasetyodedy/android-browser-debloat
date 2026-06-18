@@ -109,6 +109,9 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
 |Default geolocation setting|DefaultGeolocationSetting|2|
+|Default idle detection setting|DefaultIdleDetectionSetting|2|
+|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
+|Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
 |Enable Copilot|EdgeCopilotEnabled|false|
