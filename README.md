@@ -9,7 +9,7 @@ Below are free and open-source tools for MDM setup:<br/>
 2. How to implement a specific policy?<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
-3. Why setting up Managed Configuration with Group Policy?<br/>
+3. Why setting up Group Policy with Managed Configuration?<br/>
 Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
 That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.<br/><br/>
 
