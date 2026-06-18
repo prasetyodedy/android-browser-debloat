@@ -1,15 +1,15 @@
 # How to remove Android Browser Bloatware?
 Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unwanted features and programs) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
-1. What MDM / Policy Control Tools can be used to set up these profiles?<br/>
+1. **What MDM / Policy Control Tools can be used to set up these profiles?**<br/>
 Below are free and open-source tools for MDM setup:<br/>
    - [TestDPC](https://github.com/googlesamples/android-testdpc) (Official by Google)
    - [OwnDroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
 
-2. How to implement a specific policy?<br/>
+2. **How to implement a specific policy?**<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
-3. Why setting up Group Policy with Managed Configuration?<br/>
+3. **Why setting up Group Policy with Managed Configuration?**<br/>
 Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
 That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.<br/><br/>
 
