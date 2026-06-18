@@ -9,9 +9,16 @@ Below are free and open-source tools for MDM setup:<br/>
 2. **How to implement a specific policy?**<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
-3. **Why setting up Group Policy with Managed Configuration?**<br/>
+3. **Why setting up group policy with managed configuration?**<br/>
 Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
 That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.<br/><br/>
+
+4. **Where check known all available group policy key names for managed configuration?**<br/>
+   - `chrome://policy`
+   - inside Application Managed Configuration from MDM Tools
+   - official documentation from developer/publisher, for example:
+        - Brave Group Policy https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
+        - Microsoft Group Policy https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
@@ -144,6 +151,10 @@ The basic feature for changing language isn't available in Edge Browser settings
 
 ADB Shell Command for changing application language<br/>
 `adb shell cmd locale set-app-locales com.example.app --user current --locales "<language_code>-<country_code>"`
+
+Where provide info about language code and country code?
+- [ISO 639-1 Code](https://www.loc.gov/standards/iso639-2/php/code_list.php) about Language code
+- [ISO 3166 Alpha-2 code](https://www.iso.org/obp/ui/#search) about Country codes
 
 for example changing Microsoft Edge languages to english - United States<br/>
 `adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
