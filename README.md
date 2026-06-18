@@ -57,6 +57,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
+|Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
 |Settings for Gemini integration|GeminiSettings|1|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
 |Enable automatic HTTPS upgrades|HttpsUpgradesEnabled|true|
