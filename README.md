@@ -13,7 +13,7 @@ MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Mana
 Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
 That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.<br/><br/>
 
-4. **Where check known all available group policy key names for managed configuration?**<br/>
+4. **Where to check known all available group policy key names for managed configuration?**<br/>
    - `chrome://policy`
    - inside Application Managed Configuration from MDM Tools
    - official documentation from developer/publisher, for example:
