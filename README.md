@@ -61,6 +61,7 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
 |Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
+|Enable Touch to Search|ContextualSearchEnabled|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
 |Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
