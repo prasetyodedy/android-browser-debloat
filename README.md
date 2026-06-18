@@ -22,7 +22,7 @@ That's why as users, we can take advantage of the highest privileges of group po
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
-- And before starting MDM setup, the device does not have a second user (guest), not set up as a managed profile, and has not set up a private space.
+- And before starting MDM setup, the device does not have a second user (guest mode), not set up as a managed profile, and has not set up a private space.
 - In here not explain how to provision the device as a `managed profile, work profile, profile owner, or device owner`. All documentation about setting up MDM is already on the [TestDPC](https://github.com/googlesamples/android-testdpc) and [OwnDroid](https://github.com/BinTianqi/OwnDroid) repo, if encounter any difficulties or issues when setting up MDM, please visit  https://deepwiki.com/BinTianqi/OwnDroid
 - Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
 
