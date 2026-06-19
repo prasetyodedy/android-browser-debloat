@@ -92,7 +92,14 @@ Also recommended for Brave users to set up these flags:
 In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Adblock Tips**<br/>
-if feel the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules from https://easylist.to and https://adblockplus.org/subscriptions sources. and **Reminder** adding much more adblock filter rules sometimes doesn't make your blocking experience great, can make conflict each filter rules and make ads blocking less effective.
+if feel the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules from [easylist](https://easylist.to) and [AdBlock Plus](https://adblockplus.org/subscriptions) sources.
+- https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+- https://easylist.to/easylist/easylist.txt
+- https://easylist.to/easylist/easyprivacy.txt
+- https://secure.fanboy.co.nz/fanboy-mobile-notifications.txt
+- https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+
+**Reminder** adding much more adblock filter rules sometimes doesn't make your blocking experience great, can make conflict each filter rules and make ads blocking less effective.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
