@@ -10,8 +10,8 @@ Below are free and open-source tools for MDM setup:<br/>
 MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
 
 3. **Why setting up group policy with managed configuration?**<br/>
-Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and does not mean anything to Brave Browser / Edge Browser.<br/>
-That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users cannot change in the normal settings.
+Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and doesn't mean anything to Brave Browser / Edge Browser.<br/>
+That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users can't change in the normal settings.
 
 4. **Where to check known all available group policy key names for managed configuration?**<br/>
    - `chrome://policy`
@@ -22,7 +22,7 @@ That's why as users, we can take advantage of the highest privileges of group po
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
-- And before starting MDM setup, the device does not have a second user (guest mode), not set up as a managed profile, and has not set up a private space.
+- And before starting MDM setup, the device doesn't have a second user (guest mode), not set up as a managed profile, and has not set up a private space.
 - In here not explain how to provision the device as a `managed profile, work profile, profile owner, or device owner`. All documentation about setting up MDM is already on the [TestDPC](https://github.com/googlesamples/android-testdpc) and [OwnDroid](https://github.com/BinTianqi/OwnDroid) repo, if encounter any difficulties or issues when setting up MDM, please visit  https://deepwiki.com/BinTianqi/OwnDroid
 - Managed Configuration is not limited to browser applications such as Brave and Edge only; it can be implemented for all applications that support Group Policy, but the focus here is on specific settings about Brave Browser and Edge Browser for Android.
 
@@ -100,11 +100,11 @@ if feel the web page rendering feels sluggish, slow and stuttering in Brave Brow
 - https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
 - and add your region-specific filter rules
 
-**Reminder** adding much more adblock filter rules sometimes doesn't make your blocking experience great, can make conflict each filter rules and make ads blocking less effective.
+**Reminder** adding too many adblock filter rules sometimes doesn't make the ad blocking experience better, it can cause the filter rules to conflict with each other and make ad blocking less effective.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
-~~Copilot AI in Microsoft Edge version 148 and above, currently cannot be completely disabling/turned off from settings, which Copilot AI always could read active tabs and text typed by the user in Edge Browser.~~<br/>
+~~Copilot AI in Microsoft Edge version 148 and above, currently can't be completely disabling/turned off from settings, which Copilot AI always could read active tabs and text typed by the user in Edge Browser.~~<br/>
 **Update:** now in Edge Browser v149.0.4022.67 Microsoft brings back the feature to disable Copilot directly from Edge Settings
 
 <img width="682" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Copilot.png" />
