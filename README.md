@@ -92,12 +92,12 @@ Also recommended for Brave users to set up these flags:
 In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Adblock Tips**<br/>
-If the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules from [easylist](https://easylist.to) and [AdBlock Plus](https://adblockplus.org/subscriptions) sources.
+If the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules:
 - https://easylist.to/easylist/easylist.txt
 - https://easylist.to/easylist/easyprivacy.txt
 - https://secure.fanboy.co.nz/fanboy-mobile-notifications.txt
 - https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
-- and add your region-specific filter rules
+- and add your region or language-specific filter rules, can get source from [easylist](https://easylist.to/pages/other-supplementary-filter-lists-and-easylist-variants.html), [AdBlock Plus](https://adblockplus.org/subscriptions) and [AdGuard](https://adguard.com/kb/general/ad-filtering/adguard-filters/)
 
 **Reminder** adding too many adblock filter rules sometimes doesn't make the ad blocking experience better, it can cause the filter rules to conflict with each other and make ad blocking less effective.
 
