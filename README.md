@@ -87,8 +87,12 @@ Also recommended for Brave users to set up these flags:
 |-----|-----|-----------|
 |chrome://flags/#search-in-settings|enable|adds a search bar for easily finding specific internal settings|
 |chrome://flags/#brave-origin|disable|disable the Brave Origin menu in settings|
+|chrome://flags/#brave-adblock-show-hidden-components|enable|Reveals adblock filter list components in `brave://adblock`|
 
 In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
+
+**Adblock Tips**<br/>
+if feel the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules from https://easylist.to and https://adblockplus.org/subscriptions sources. and **Reminder** adding much more adblock filter rules sometimes doesn't make your blocking experience great, can make conflict each filter rules and make ads blocking less effective.
 
 <br/><br/>
 # Disable Copilot Microsoft Edge Android and setup other settings
