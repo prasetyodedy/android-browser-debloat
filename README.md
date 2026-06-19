@@ -93,7 +93,6 @@ In addition to the settings I mentioned above, Brave Browser has well-managed de
 
 **Adblock Tips**<br/>
 If the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules from [easylist](https://easylist.to) and [AdBlock Plus](https://adblockplus.org/subscriptions) sources.
-- https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
 - https://easylist.to/easylist/easylist.txt
 - https://easylist.to/easylist/easyprivacy.txt
 - https://secure.fanboy.co.nz/fanboy-mobile-notifications.txt
