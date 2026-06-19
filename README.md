@@ -98,6 +98,7 @@ if feel the web page rendering feels sluggish, slow and stuttering in Brave Brow
 - https://easylist.to/easylist/easyprivacy.txt
 - https://secure.fanboy.co.nz/fanboy-mobile-notifications.txt
 - https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+- and add your region-specific filter rules
 
 **Reminder** adding much more adblock filter rules sometimes doesn't make your blocking experience great, can make conflict each filter rules and make ads blocking less effective.
 
