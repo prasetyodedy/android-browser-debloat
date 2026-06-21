@@ -57,7 +57,6 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Enable Web Discovery|BraveWebDiscoveryEnabled|false|
 |Brave cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
 |Enable Touch to Search|ContextualSearchEnabled|false|
-|Default Brave fingerprinting protection setting|DefaultBraveFingerprintingV2Setting|3|
 |Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
@@ -88,7 +87,7 @@ Also recommended for Brave users to set up these flags:
 |chrome://flags/#brave-origin|disable|disable the Brave Origin menu in settings|
 |chrome://flags/#brave-adblock-show-hidden-components|enable|Reveals adblock filter list components in `brave://adblock`|
 
-In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including region-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
+In addition to the settings I mentioned above, Brave Browser has well-managed default settings, such as already disabling third-party cookies, enabling anti-fingerprinting, enabling built-in ad-blocking including language-specific filter rules, etc. Now Brave Browser is ready to use. No further setup changes are needed. Users can customize other settings themselves.
 
 **Adblock Tips**<br/>
 If the web page rendering feels sluggish, slow and stuttering in Brave Browser, please open `chrome://components/` check and update all Chromium components, and open `brave://adblock` to update all filter rules. Brave Browser adds many filter rules to their [Default adblock filter rules](https://raw.githubusercontent.com/brave/adblock-resources/refs/heads/master/filter_lists/list_catalog.json). If still no changes, try customizing or disabling the default Brave adblock filter rules from `brave://adblock`, and changing with minimal and basic filter rules:
@@ -118,7 +117,6 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
-|Default geolocation setting|DefaultGeolocationSetting|2|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
 |Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
