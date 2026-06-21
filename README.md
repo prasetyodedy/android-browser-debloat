@@ -147,6 +147,7 @@ Besides setting up Managed Configurations via Group Policy, it is also recommend
 - Settings >> New tab page >> Weather (optional. if liked, keep it enabled)
 - Settings >> New tab page >> Continue browsing where I left off (select and activate this)
 - Settings >> Site settings >> Site permissions >> Third-party cookies (set to 'disable')
+- Settings >> Site settings >> Block opening external apps (set to 'disable')
 - Settings >> Site settings >> Block ads (optional. if liked, enabled built-in Block ads and disable 'Acceptable Ads') but recommended to use [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak) extension for better ads blocking.
 
 Home Page settings, tap hamburger menu on top right
