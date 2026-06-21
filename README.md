@@ -60,7 +60,6 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Default Brave fingerprinting protection setting|DefaultBraveFingerprintingV2Setting|3|
 |Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
@@ -121,7 +120,6 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
 |Default geolocation setting|DefaultGeolocationSetting|2|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
-|Control use of JavaScript JIT|DefaultJavaScriptJitSetting|2|
 |Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
