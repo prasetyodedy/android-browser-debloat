@@ -1,5 +1,5 @@
 # How to remove Android Browser Bloatware?
-Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unwanted features and programs) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
+Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unnecessary features) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
 1. **What MDM / Policy Control Tools can be used to set up these profiles?**<br/>
 Below are free and open-source tools for MDM setup:<br/>
