@@ -57,12 +57,13 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Enable Web Discovery|BraveWebDiscoveryEnabled|false|
 |Brave cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
 |Enable Touch to Search|ContextualSearchEnabled|false|
-|Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|3|
+|Control HTTPS upgrade behavior|DefaultBraveHttpsUpgradeSetting|2|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
 |Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
 |Specifies whether in-product Brave surveys are shown to users.|FeedbackSurveysEnabled|false|
 |Settings for Chrome Finds|FindsSettings|2|
 |Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
+|Allows Gemini app integrations to directly act on web pages|GeminiActOnWebSettings|1|
 |Settings for Gemini integration|GeminiSettings|1|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
 |Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
@@ -70,7 +71,9 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Enable reporting of usage and crash-related data|MetricsReportingEnabled|false|
 |Enable network prediction|NetworkPredictionOptions|0|
 |Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
-|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|<br/>
+|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|
+|Enable URL-keyed anonymized data collection|UrlKeyedAnonymizedDataCollectionEnabled|false|
+|Allow collection of WebRTC event logs from Google services|WebRtcEventLogCollectionAllowed|false|<br/>
 
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
