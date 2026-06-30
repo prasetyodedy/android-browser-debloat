@@ -76,7 +76,8 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Allow collection of WebRTC event logs from Google services|WebRtcEventLogCollectionAllowed|false|<br/>
 
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
-**Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.
+**Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.<br/>
+**Reminder** Brave claim on their published article "[What does brave remove from the Chromium engine?](https://support.brave.app/hc/en-us/articles/36223805247245-What-does-brave-remove-from-the-Chromium-engine)", some privacy/security related already disable by default and delete the code entirely, but in reality still appears in policy list. So it's better to configure it than not at all, we don't know if the code is actually removed or not.
 
 Besides setting up Managed Configurations via Group Policy, it is also recommended for users to configure the options below directly in the Brave Browser settings:
 - Settings >> Brave Shields & privacy >> Allow app links to open in apps outside of Brave (set to 'disable')
