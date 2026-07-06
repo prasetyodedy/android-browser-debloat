@@ -120,13 +120,16 @@ Microsoft implements different policies (Data Protection and Privacy Rights / GD
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
 |Name|Key Name|Policy Values|
 |----|--------|-------------|
+|Allow Accessibility Performance Filtering.|AccessibilityPerformanceFilteringAllowed|false|
+|Enable Work Search suggestions in the address bar|AddressBarWorkSearchResultsEnabled|false|
+|Suggest similar pages when a webpage can't be found|AlternateErrorPagesEnabled|false|
 |Enable the Copilot new tab page|CopilotNewTabPageEnabled|false|
 |Default idle detection setting|DefaultIdleDetectionSetting|2|
 |Control the mode of DNS-over-HTTPS|DnsOverHttpsMode|secure|
 |Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query<br/>/ other dns resolver|
 |Allow download restrictions|DownloadRestrictions|0|
 |Enable Copilot|EdgeCopilotEnabled|false|
-|EdgeDefaultHTTPS|EdgeDefaultHTTPS|true|
+|Disable data sharing usage data for personalization for iOS and Android|EdgeDisableShareUsageData|false|
 |Enforce Google SafeSearch|ForceGoogleSafeSearch|false|
 |Force minimum YouTube Restricted Mode|ForceYouTubeRestrict|0|
 |Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
@@ -136,9 +139,12 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Prevent bypassing Microsoft Defender SmartScreen prompts for sites|PreventSmartScreenPromptOverride|false|
 |Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads|PreventSmartScreenPromptOverrideForFiles|false|
 |Prevent bypassing Edge Website Typo Protection prompts for sites|PreventTyposquattingPromptOverride|false|
+|Enable search suggestions|SearchSuggestEnabled|false|
+|Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Enable Microsoft Defender SmartScreen DNS requests|SmartScreenDnsRequestsEnabled|false|
 |Configure Microsoft Defender SmartScreen|SmartScreenEnabled|false|
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
+|Configure Edge Website Typo Protection|TyposquattingCheckerEnabled|false|
 
 official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
