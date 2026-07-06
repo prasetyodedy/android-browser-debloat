@@ -18,7 +18,7 @@ That's why as users, we can take advantage of the highest privileges of group po
    - in the Applications menu section within Managed Configuration of MDM Tools.
    - official documentation from developer/publisher, for example:
         - Brave Group Policy https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
-        - Microsoft Group Policy https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies
+        - Microsoft Edge Mobile - Policies https://learn.microsoft.com/en-us/deployedge/microsoft-edge-mobile-policies
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
@@ -146,7 +146,7 @@ key name list and values setup for Managed Configuration for Microsoft Edge Brow
 |Configure Microsoft Defender SmartScreen to block potentially unwanted apps|SmartScreenPuaEnabled|false|
 |Configure Edge Website Typo Protection|TyposquattingCheckerEnabled|false|
 
-official source and credit from the [Microsoft Group Policy](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies).<br/>
+official source and credit from the [Microsoft Edge Mobile - Policies](https://learn.microsoft.com/en-us/deployedge/microsoft-edge-mobile-policies).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Microsoft has changed their Policy Key Name.
 
 Besides setting up Managed Configurations via Group Policy, it is also recommended for users to configure the options below directly in the Edge Browser settings:
