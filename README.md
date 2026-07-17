@@ -7,10 +7,10 @@ Below are free and open-source tools for MDM setup:<br/>
    - [OwnDroid](https://github.com/BinTianqi/OwnDroid) (TestDPC fork, with better UI & UX, easy to use)
 
 2. **How to implement a specific policy?**<br/>
-MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge) >> Managed Configuration.
+MDM / Policy Control Apps >> Apps Management >> choose Apps (Brave/Edge/Chrome) >> Managed Configuration.
 
 3. **Why setting up group policy with managed configuration?**<br/>
-Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and doesn't mean anything to Brave Browser / Edge Browser.<br/>
+Because there are some settings that are not visible in the normal settings, even making changes and some settings with `chrome://flags` has no effect and doesn't mean anything to Brave Browser / Edge Browser / Chrome.<br/>
 That's why as users, we can take advantage of the highest privileges of group policy set from managed configuration to apply some settings that users can't change in the normal settings.
 
 4. **Where to check known all available group policy key names for managed configuration?**<br/>
@@ -180,3 +180,7 @@ Where provide info about language code and country code?
 
 for example changing Microsoft Edge languages to english - United States<br/>
 `adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
+
+# Disable Gemini Chrome Android and setup other settings
+
+will update soon.
