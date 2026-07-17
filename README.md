@@ -19,6 +19,7 @@ That's why as users, we can take advantage of the highest privileges of group po
    - official documentation from developer/publisher, for example:
         - Brave Group Policy https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy
         - Microsoft Edge Mobile - Policies https://learn.microsoft.com/en-us/deployedge/microsoft-edge-mobile-policies
+        - Chrome Enterprise policy list https://chromeenterprise.google/policies/
 
 **Note:**
 - Before setting up an MDM profile, users must log out of all active accounts from the Android device.
@@ -183,4 +184,46 @@ for example changing Microsoft Edge languages to english - United States<br/>
 
 # Disable Gemini Chrome Android and setup other settings
 
-will update soon.
+|Name|Key Name|Policy Values|
+|----|--------|-------------|
+|Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
+|Ads setting for sites with intrusive ads|AdsSettingForIntrusiveAdsSites|2|
+|Allow automatic sign-in to MicrosoftÂ® cloud identity providers on Android|AndroidEntraSsoEnabled|0|
+|Enable AutoFill for addresses|AutofillAddressEnabled|false|
+|Enable AutoFill for credit cards|AutofillCreditCardEnabled|false|
+|Settings for enhanced autofill|AutofillPredictionSettings|2|
+|Allow media autoplay|AutoplayAllowed|false|
+|Allow Chrome for Testing|ChromeForTestingAllowed|true|
+|Determine the availability of variations|ChromeVariations|1|
+|Google Chrome cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
+|Default clipboard setting|DefaultClipboardSetting|2|
+|Default idle detection setting|DefaultIdleDetectionSetting|2|
+|Default pop-ups setting|DefaultPopupsSetting|2|
+|Controls the mode of DNS-over-HTTPS|DnsOverHttpsMode|automatic|
+|Specify URI template of desired DNS-over-HTTPS resolver|DnsOverHttpsTemplates|https://cloudflare-dns.com/dns-query|
+|Allow reporting of domain reliability related data|DomainReliabilityAllowed|false|
+|Specifies whether in-product Google Chrome surveys are shown to users.|FeedbackSurveysEnabled|false|
+|Settings for Chrome Finds|FindsSettings|2|
+|Force Google SafeSearch|ForceGoogleSafeSearch|false|
+|Allows Gemini app integrations to directly act on web pages|GeminiActOnWebSettings|1|
+|Settings for Gemini integration|GeminiSettings|1|
+|Settings for GenAI local foundational model|GenAILocalFoundationalModelSettings|1|
+|Use the Happy Eyeballs V3 algorithm|HappyEyeballsV3Enabled|true|
+|Allow HTTPS-Only Mode to be enabled|HttpsOnlyMode|force_enabled|
+|Enable automatic HTTPS upgrades|HttpsUpgradesEnabled|true|
+|Enable reporting of usage and crash-related data|MetricsReportingEnabled|false|
+|Show content suggestions on the New Tab page|NTPContentSuggestionsEnabled|false|
+|Allow websites to query for available payment methods.|PaymentMethodQueryEnabled|false|
+|Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
+|Safe Browsing Protection Level|SafeBrowsingProtectionLevel|1|
+|Allow Safe Browsing Proxied Real Time Checks|SafeBrowsingProxiedRealTimeChecksAllowed|false|
+|Control SafeSites adult content filtering.|SafeSitesFilterBehavior|0|
+|Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|
+|Enable search suggestions|SearchSuggestEnabled|false|
+|Enable the Shared Clipboard Feature|SharedClipboardEnabled|false|
+|Allow the shopping list feature to be enabled|ShoppingListEnabled|false|
+|Enable URL-keyed anonymized data collection|UrlKeyedAnonymizedDataCollectionEnabled|false|
+|Allow collection of WebRTC event logs from Google services|WebRtcEventLogCollectionAllowed|false|
+
+official source and credit from the [Chrome Enterprise policy list](https://chromeenterprise.google/policies/).<br/>
+**Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Google has changed their Policy Key Name.
