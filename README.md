@@ -1,3 +1,10 @@
+**Table of contents**
+   - [Introduction](https://github.com/prasetyodedy/android-browser-debloat#how-to-remove-android-browser-bloatware)
+   - [Brave Browser](https://github.com/prasetyodedy/android-browser-debloat#remove-brave-android-browser-bloatware)
+   - [Microsoft Edge](https://github.com/prasetyodedy/android-browser-debloat#disable-copilot-microsoft-edge-android-and-setup-other-settings)
+   - [Google Chrome](https://github.com/prasetyodedy/android-browser-debloat#disable-gemini-chrome-android-and-setup-other-settings)
+
+
 # How to remove Android Browser Bloatware?
 Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unnecessary features) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
