@@ -49,9 +49,8 @@ And add other policy configurations to increase Brave Browser privacy.<br/>
 
 **Brave Specific Policy Settings**<br/>
 Key name list and values for Managed Configuration in Brave Browser:
-<!-- prettier-ignore -->
-|Name|Key Name|Policy Values|
-|----|--------|-------------|
+|Name Description|Key Name|Policy Values|
+|----------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Enable AI Chat|BraveAIChatEnabled|false|
 |Configure Global Privacy Control|BraveGlobalPrivacyControlEnabled|true|
@@ -94,7 +93,6 @@ Besides setting up Managed Configurations via Group Policy, it is also recommend
 - Settings >> Site settings >> Autoplay (set to 'Not allowed')
 
 Also recommended for Brave users to set up these flags:
-<!-- prettier-ignore -->
 |Flags|Value|Description|
 |-----|-----|-----------|
 |chrome://flags/#search-in-settings|enable|adds a search bar for easily finding specific internal settings|
@@ -128,9 +126,8 @@ Microsoft implements different policies (Data Protection and Privacy Rights / GD
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
-<!-- prettier-ignore -->
-|Name|Key Name|Policy Values|
-|----|--------|-------------|
+|Name  Description|Key Name|Policy Values|
+|-----------------|--------|-------------|
 |Allow Accessibility Performance Filtering.|AccessibilityPerformanceFilteringAllowed|false|
 |Enable Work Search suggestions in the address bar|AddressBarWorkSearchResultsEnabled|false|
 |Suggest similar pages when a webpage can't be found|AlternateErrorPagesEnabled|false|
@@ -195,9 +192,8 @@ for example changing Microsoft Edge languages to english - United States<br/>
 <br/><br/>
 # Disable Gemini Chrome Android and setup other settings
 
-<!-- prettier-ignore -->
-|Name|Key Name|Policy Values|
-|----|--------|-------------|
+|Name Description|Key Name|Policy Values|
+|----------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Ads setting for sites with intrusive ads|AdsSettingForIntrusiveAdsSites|2|
 |Allow automatic sign-in to MicrosoftÂ® cloud identity providers on Android|AndroidEntraSsoEnabled|0|
