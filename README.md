@@ -50,8 +50,8 @@ And add other policy configurations to increase Brave Browser privacy.<br/>
 
 **Brave Specific Policy Settings**<br/>
 Key name list and values for Managed Configuration in Brave Browser:
-|Name_Description|Key Name|Policy Values|
-|----------------|--------|-------------|
+|      Name_Description     |Key Name|Policy Values|
+|---------------------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Enable AI Chat|BraveAIChatEnabled|false|
 |Configure Global Privacy Control|BraveGlobalPrivacyControlEnabled|true|
