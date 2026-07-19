@@ -4,7 +4,7 @@
    - [Microsoft Edge](https://github.com/prasetyodedy/android-browser-debloat#disable-copilot-microsoft-edge-android-and-setup-other-settings)
    - [Google Chrome](https://github.com/prasetyodedy/android-browser-debloat#disable-gemini-chrome-android-and-setup-other-settings)
 
-
+<br/><br/>
 # How to remove Android Browser Bloatware?
 Users can utilize Mobile Device Management (MDM) or Policy Control Tools to disable and remove bloatware (unnecessary features) from Android browsers by provisioning the device as a `managed profile, work profile, profile owner, or device owner`.<br/> 
 
@@ -189,6 +189,7 @@ Where provide info about language code and country code?
 for example changing Microsoft Edge languages to english - United States<br/>
 `adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
 
+<br/><br/>
 # Disable Gemini Chrome Android and setup other settings
 
 |Name|Key Name|Policy Values|
@@ -200,6 +201,7 @@ for example changing Microsoft Edge languages to english - United States<br/>
 |Enable AutoFill for credit cards|AutofillCreditCardEnabled|false|
 |Settings for enhanced autofill|AutofillPredictionSettings|2|
 |Allow media autoplay|AutoplayAllowed|false|
+|Block third party cookies|BlockThirdPartyCookies|true|
 |Allow Chrome for Testing|ChromeForTestingAllowed|true|
 |Determine the availability of variations|ChromeVariations|1|
 |Google Chrome cloud policy overrides Platform policy.|CloudPolicyOverridesPlatformPolicy|false|
