@@ -47,10 +47,11 @@ And add other policy configurations to increase Brave Browser privacy.<br/>
 
 <img width="1362" height="480" alt="Image" src="https://raw.githubusercontent.com/prasetyodedy/debloat-android-browser/refs/heads/main/screenshot/Brave.png" />
 
+
 **Brave Specific Policy Settings**<br/>
 Key name list and values for Managed Configuration in Brave Browser:
-|Name Description|Key Name|Policy Values|
-|----------------|--------|-------------|
+|<div style="width:290px">Name Description</div>|Key Name|Policy Values|
+|-----------------------------------------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Enable AI Chat|BraveAIChatEnabled|false|
 |Configure Global Privacy Control|BraveGlobalPrivacyControlEnabled|true|
@@ -81,7 +82,8 @@ Key name list and values for Managed Configuration in Brave Browser:
 |Enable Safe Browsing Extended Reporting|SafeBrowsingExtendedReportingEnabled|false|
 |Enable content sharing with Google AI Mode and Lens integrations|SearchContentSharingSettings|1|
 |Enable URL-keyed anonymized data collection|UrlKeyedAnonymizedDataCollectionEnabled|false|
-|Allow collection of WebRTC event logs from Google services|WebRtcEventLogCollectionAllowed|false|<br/>
+|Allow collection of WebRTC event logs from Google services|WebRtcEventLogCollectionAllowed|false|
+<br/>
 
 official source and credit from the [Brave Group Policy](https://support.brave.app/hc/en-us/articles/360039248271-Group-Policy).<br/>
 **Note:** If some Policy Key Names above are missing or can't be found, that Key Name may be already deprecated, or Brave has changed their Policy Key Name.<br/>
