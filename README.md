@@ -2,7 +2,7 @@
    - [Introduction](https://github.com/prasetyodedy/android-browser-debloat#how-to-remove-android-browser-bloatware)
    - [Brave Browser](https://github.com/prasetyodedy/android-browser-debloat#remove-brave-android-browser-bloatware)
    - [Microsoft Edge](https://github.com/prasetyodedy/android-browser-debloat#disable-copilot-microsoft-edge-android-and-setup-other-settings)
-   - [Google Chrome](https://github.com/prasetyodedy/android-browser-debloat#disable-gemini-chrome-android-and-setup-other-settings)
+   - [Google Chrome](https://github.com/prasetyodedy/android-browser-debloat#disable-gemini-google-chrome-android-and-setup-other-settings)
 
 <br/><br/>
 # How to remove Android Browser Bloatware?
