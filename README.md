@@ -50,8 +50,8 @@ And add other policy configurations to increase Brave Browser privacy.<br/>
 
 **Brave Specific Policy Settings**<br/>
 Key name list and values for Managed Configuration in Brave Browser:
-|      Name_Description     |Key Name|Policy Values|
-|---------------------------|--------|-------------|
+|Name Description|Key Name|Policy Values|
+|----------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
 |Enable AI Chat|BraveAIChatEnabled|false|
 |Configure Global Privacy Control|BraveGlobalPrivacyControlEnabled|true|
@@ -128,8 +128,8 @@ Microsoft implements different policies (Data Protection and Privacy Rights / GD
 
 **Microsoft Edge Android Browser Specific Policy Settings.**<br/>
 key name list and values setup for Managed Configuration for Microsoft Edge Browser:
-|Name  Description|Key Name|Policy Values|
-|-----------------|--------|-------------|
+|Name Description|Key Name|Policy Values|
+|----------------|--------|-------------|
 |Allow Accessibility Performance Filtering.|AccessibilityPerformanceFilteringAllowed|false|
 |Enable Work Search suggestions in the address bar|AddressBarWorkSearchResultsEnabled|false|
 |Suggest similar pages when a webpage can't be found|AlternateErrorPagesEnabled|false|
@@ -192,8 +192,10 @@ for example changing Microsoft Edge languages to english - United States<br/>
 `adb shell cmd locale set-app-locales com.microsoft.emmx --user current --locales "en-US"`
 
 <br/><br/>
-# Disable Gemini Chrome Android and setup other settings
+# Disable Gemini Google Chrome Android and setup other settings
 
+**Google Chrome Android Browser Specific Policy Settings.**<br/>
+key name list and values setup for Managed Configuration for Google Chrome Android:
 |Name Description|Key Name|Policy Values|
 |----------------|--------|-------------|
 |Settings for Google's AI Mode integrations in the address bar and New Tab page search box.|AIModeSettings|1|
